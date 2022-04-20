@@ -16,7 +16,7 @@ const HomeView = () => {
         <Profile />
       </Section>
       <Section title="Skillsets" className="container mx-auto px-2">
-        <div className="text-center mx-auto md:mx-52 -mt-5 mb-5">
+        <div className="text-center mx-auto md:mx-52 -mt-5 mb-5 px-2">
           I started learning about programming and computer technology before
           junior high as a result of an injury that left me in a wheelchair for
           a few months with nothing but time! Immediately, I knew what I wanted
