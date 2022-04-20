@@ -6,9 +6,6 @@ import Section from "../components/Section";
 import Skillset from "../components/Skillset";
 import { backendSkills, devOpsSkills, frontendSkills } from "../data/skills";
 import MainLayout from "../layout/MainLayout";
-import prsImage from "../assets/PRS.png";
-import reactDjangoBPImage from "../assets/reactDjangoBP.png";
-import turingMachineImage from "../assets/turingMachine.jpg";
 import { projects } from "../data/projects";
 import Footer from "../components/Footer";
 

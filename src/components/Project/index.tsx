@@ -22,7 +22,7 @@ const Project: React.FC<IProjectProps> = ({
     <div className="mb-10">
       <Card className="w-full flex flex-col items-center justify-between pb-5">
         <div className="relative w-full">
-          <img src={image} className="w-full"></img>
+          <img src={image} className="w-full" alt={name}></img>
           <div
             className={` overflow-y-auto text-white p-4 text-semibold transition-all duration-300 absolute left-0 top-0 w-full h-full bg-azure-500 ${
               show ? "opacity-100" : "opacity-0"
