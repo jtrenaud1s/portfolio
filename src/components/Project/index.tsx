@@ -24,7 +24,7 @@ const Project: React.FC<IProjectProps> = ({
         <div className="relative w-full">
           <img src={image} className="w-full"></img>
           <div
-            className={` overflow-y-scroll text-white p-4 text-semibold transition-all duration-300 absolute left-0 top-0 w-full h-full bg-azure-500 ${
+            className={` overflow-y-auto text-white p-4 text-semibold transition-all duration-300 absolute left-0 top-0 w-full h-full bg-azure-500 ${
               show ? "opacity-100" : "opacity-0"
             }`}
             onMouseEnter={() => {
