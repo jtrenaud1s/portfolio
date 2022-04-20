@@ -1,14 +1,12 @@
 import React from "react";
 
-import profilePicture from "../../assets/profile.jpg";
-
 const Profile = () => {
   return (
     <div className="w-full pb-10 pt-10 pl-3 pr-3 bg-azure-400 text-white">
       <div className="w-full flex flex-col md:grid md:grid-cols-4 items-center md:container md:mx-auto">
         <img
           className="mb-4 w-44 md:w-60 md:m-auto md:col-span-1"
-          src={profilePicture}
+          src="./profile.jpg"
           alt="Jordan Renaud"
         />
         <div className="text-center md:text-left md:col-span-3">
