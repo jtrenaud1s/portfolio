@@ -1,13 +1,11 @@
 import React from "react";
 
-import profilePicture from "../../assets/profile.jpg";
-
 const Footer = () => {
   return (
     <div className="text-center w-full pb-10 pt-10 pl-3 pr-3 bg-azure-400 text-white flex flex-col items-center justify-between">
       <img
         className="mb-4 w-20 rounded-full"
-        src={profilePicture}
+        src="./profile.jpg"
         alt="Jordan Renaud"
       />
       <h2 className="text-2xl">Hiring Junior Engineers?</h2>
