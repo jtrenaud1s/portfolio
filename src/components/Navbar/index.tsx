@@ -28,7 +28,7 @@ const Navbar = () => {
     <>
       <div className="relative z-20 w-full h-12 p-4 bg-azure-500 text-white flex items-center justify-between">
         <SocialIcons />
-        <nav className="hidden md:flex flex-row items-center justify-between w-96">
+        <nav className="hidden md:flex flex-row items-center justify-end w-96">
           {navLinks}
         </nav>
         <button
